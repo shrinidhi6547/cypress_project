@@ -1,0 +1,23 @@
+{
+  "name": "cypress_project",
+  "version": "1.0.0",
+  "description": "google_search",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrinidhi6547/cypress_project.git"
+  },
+  "author": "shrinidhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrinidhi6547/cypress_project/issues"
+  },
+  "homepage": "https://github.com/shrinidhi6547/cypress_project#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
