@@ -1,5 +1,13 @@
 {
   "ignoreTestFiles": "**/example/*",
-  "projectId": "2cuo6z",
-  "baseUrl":"https//:www.google.com"
+  "baseUrl":"https://www.google.com",
+  "chromeWebSecurity": false,
+  "screenshotsFolder":"cypress/reports/screenshots",
+  "videosFolder":"cypress/reports/screenshots",
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  }
 }

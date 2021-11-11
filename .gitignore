@@ -1,2 +1,5 @@
-/node_modules
+# Test Files & Folders
+node_modules/
 /.vsCode
+reports/
+cypress.env.json
