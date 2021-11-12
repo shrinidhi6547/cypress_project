@@ -18,15 +18,15 @@ Open Cypress test runner
 ```bash
 npm run cy:open
 ```
-Run Test cases in default browser
+Run Test cases in default browser (headless)
 ```bash
 npm run cy:run
 ```
-Run Test cases in Chrome browser
+Run Test cases in Chrome browser (headless)
 ```bash
 npm run cy:run:chrome
 ```
-Run Test cases in Firefox browser
+Run Test cases in Firefox browser (headless)
 ```bash
 npm run cy:run:firefox
 ```
