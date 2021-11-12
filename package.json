@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/shrinidhi6547/cypress_project#readme",
   "devDependencies": {
-    "cypress": "^9.0.0"
+    "cypress": "^9.0.0",
+    "cypress-file-upload": "^5.0.8"
   }
 }

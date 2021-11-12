@@ -1,8 +1,14 @@
 {
   "url": "https://www.google.com",
   "title": "Google",
-  "value": "teasdst",
-  "newValue": "new",
-  "imageSearch":"Aurora",
-  "imageUrl": "https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets.jpg"
+  "searchValue":{
+    "string": "test",
+    "number": 123,
+    "specialChar": "#@%",
+    "newValue": "facebook"
+  },
+  "imageSearch":{
+    "textSearch":"Aurora",
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets.jpg"
+  }
 }
