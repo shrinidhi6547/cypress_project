@@ -3,7 +3,7 @@
   "baseUrl":"https://www.google.com",
   "chromeWebSecurity": false,
   "screenshotsFolder":"cypress/reports/screenshots",
-  "videosFolder":"cypress/reports/screenshots",
+  "videosFolder":"cypress/reports/Videos",
   "viewportWidth": 1280,
   "viewportHeight": 720,
   "retries": {
