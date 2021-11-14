@@ -22,6 +22,7 @@ describe("Google search", () => {
             })
             cy.get('input[name="q"]').should('be.visible');
             cy.get('.XDyW0e[aria-label="Search by voice"]').should('be.visible')
+            cy.get('.gb_C').should('have.attr', 'aria-label', 'Google apps')
         })
     });
 
@@ -67,6 +68,19 @@ describe("Google search", () => {
             })
         cy.url().should("include", `${url}/doodles`);
     })
+
+    it("Goto Gmail login page",()=>{
+        // cy.go('back');
+        cy.get('[data-pid="23"]')
+                .should('be.visible')
+                .should('have.attr', 'href', 'https://mail.google.com/mail/&ogbl')
+                .click()
+        cy.url().should('include',`${url}/intl/en-GB/gmail/about/#`).then(()=>{
+            cy.get('.link.header__logo').should('have.attr', 'href', './')
+            cy.get('.button.button--medium.button--mobile-before-hero-only').should('have.text', 'Sign in')
+        })
+    })
+
 })
 
 describe("Image search",()=>{
